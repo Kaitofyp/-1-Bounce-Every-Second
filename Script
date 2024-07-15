@@ -4,35 +4,35 @@ local window = DrRayLibrary:Load("Kaito Hub | +1 Bounce Every Second", "Default"
 
 local tab = DrRayLibrary.newTab("Instant Boss", "ImageIdHere")
 
-tab.newButton("Lvl 1 Boss", "+3.3 wins!", function()
+tab.newButton("Lvl 1 Boss", "+3 wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 1)
 end)
 
-tab.newButton("Lvl 2 Boss", "+6.6 wins!", function()
+tab.newButton("Lvl 2 Boss", "+6 wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 2)
 end)
 
-tab.newButton("Lvl 3 Boss", "+22 wins!", function()
+tab.newButton("Lvl 3 Boss", "+20 wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 3)
 end)
 
-tab.newButton("Lvl 4 Boss", "+66 wins!", function()
+tab.newButton("Lvl 4 Boss", "+60 wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 4)
 end)
 
-tab.newButton("Lvl 5 Boss", "+220 wins!", function()
+tab.newButton("Lvl 5 Boss", "+200 wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 5)
 end)
 
-tab.newButton("Lvl 6 Boss", "+880 wins!", function()
+tab.newButton("Lvl 6 Boss", "+800 wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 6)
 end)
 
-tab.newButton("Lvl 7 Boss", "+3.3K wins!", function()
+tab.newButton("Lvl 7 Boss", "+3K wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 7)
 end)
 
-tab.newButton("Lvl 8 Boss", "+16.5K wins!", function()
+tab.newButton("Lvl 8 Boss", "+16K wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 8)
 end)
 
