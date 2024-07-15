@@ -32,7 +32,7 @@ tab.newButton("Lvl 7 Boss", "+3K wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 7)
 end)
 
-tab.newButton("Lvl 8 Boss", "+16K wins!", function()
+tab.newButton("Lvl 8 Boss", "+15K wins!", function()
 game:GetService("ReplicatedStorage").RemoteEvents.Boss:FireServer("plr" , 8)
 end)
 
